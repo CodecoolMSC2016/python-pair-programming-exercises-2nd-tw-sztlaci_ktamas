@@ -3,7 +3,7 @@ def palindrome(string):
 
 
 def main():
-    print(palindrome("indulagorgaludni"))
+    print(palindrome("indulagörögaludni"))
 
 
 if __name__ == '__main__':
