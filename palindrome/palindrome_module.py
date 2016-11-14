@@ -1,9 +1,9 @@
-def palindrome(str):
-    return
+def palindrome(string):
+    return string[::-1].lower().replace(" ", "") == string.lower().replace(" ", "")
 
 
 def main():
-    return
+    print(palindrome("indulagorgaludni"))
 
 
 if __name__ == '__main__':
