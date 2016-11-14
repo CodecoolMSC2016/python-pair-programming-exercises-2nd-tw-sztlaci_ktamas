@@ -1,8 +1,8 @@
 def create_numbers():
     numbers = []
-    
+
     for i in range(0, 100):
-        numbers.append(int(i+1))
+        numbers.append(int(i + 1))
 
     return numbers
 
@@ -21,7 +21,6 @@ def fizzbuzz(number):
 
 def main():
     nums = create_numbers()
-    
 
     for num in nums:
         n = fizzbuzz(num)
